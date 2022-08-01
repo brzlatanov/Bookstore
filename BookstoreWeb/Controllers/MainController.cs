@@ -5,6 +5,6 @@ namespace BookstoreWeb.Controllers
 {
     public abstract class MainController : Controller
     {
-        protected ApplicationDbContext _db { get; init; }
+        protected ApplicationDbContext _db;
     }
 }
